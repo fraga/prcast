@@ -1,0 +1,25 @@
+# Caller workflow -- add this to any repo you want PRCast to watch.
+# Save as .github/workflows/prcast.yml in the target repo.
+
+name: PRCast Episode
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  trigger-prcast:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger PRCast
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.PRCAST_PAT }}
+          repository: fraga/prcast
+          event-type: generate-episode
+          client-payload: |
+            {
+              "repo": "${{ github.repository }}",
+              "pr_number": "${{ github.event.pull_request.number }}"
+            }

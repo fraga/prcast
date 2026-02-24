@@ -1,0 +1,90 @@
+name: Generate Podcast Episode
+
+on:
+  repository_dispatch:
+    types: [generate-episode]
+
+  workflow_dispatch:
+    inputs:
+      repo:
+        description: "GitHub repo (owner/repo)"
+        required: true
+      pr_number:
+        description: "PR number"
+        required: true
+
+permissions:
+  contents: write
+  pages: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout gh-pages
+        uses: actions/checkout@v4
+        with:
+          ref: gh-pages
+          fetch-depth: 0
+
+      - name: Checkout source
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: src
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install ffmpeg
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: Install dependencies
+        run: pip install -r src/requirements.txt
+
+      - name: Set episode parameters
+        id: params
+        run: |
+          if [ "${{ github.event_name }}" = "repository_dispatch" ]; then
+            echo "repo=${{ github.event.client_payload.repo }}" >> $GITHUB_OUTPUT
+            echo "pr_number=${{ github.event.client_payload.pr_number }}" >> $GITHUB_OUTPUT
+          else
+            echo "repo=${{ inputs.repo }}" >> $GITHUB_OUTPUT
+            echo "pr_number=${{ inputs.pr_number }}" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Generate episode
+        env:
+          # LLM config
+          LLM_PROVIDER: ${{ vars.LLM_PROVIDER || 'openai' }}
+          LLM_MODEL: ${{ vars.LLM_MODEL || 'gpt-4o' }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_BASE_URL: ${{ vars.OPENAI_BASE_URL || 'https://api.openai.com/v1' }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          # GitHub
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # TTS
+          TTS_PROVIDER: ${{ vars.TTS_PROVIDER || 'edge' }}
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          # Output
+          AUDIO_DIR: ./audio
+          FEEDS_DIR: ./feeds
+          BASE_URL: https://${{ github.repository_owner }}.github.io/prcast
+        run: |
+          cd src
+          python -m prcast.cli "${{ steps.params.outputs.repo }}" "${{ steps.params.outputs.pr_number }}"
+          cp -r audio/* ../audio/ 2>/dev/null || true
+          cp -r feeds/* ../feeds/ 2>/dev/null || true
+
+      - name: Commit and push to gh-pages
+        run: |
+          git config user.name "PRCast Bot"
+          git config user.email "prcast@users.noreply.github.com"
+          git add audio/ feeds/
+          git diff --staged --quiet || (
+            git commit -m "Episode: ${{ steps.params.outputs.repo }}#${{ steps.params.outputs.pr_number }}"
+            git push
+          )
