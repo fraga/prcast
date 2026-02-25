@@ -8,10 +8,19 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>PRCast</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:09:16 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 07:10:27 +0000</lastBuildDate>
     <itunes:author>PRCast</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
+    <item>
+      <title>[MicrosoftDocs/dynamics-365-unified-operations-public] PR #5163: MSM Copilot experiences</title>
+      <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5163</link>
+      <description>Pull Request by lavanyapg: MSM Copilot experiences. Documents five new Copilot features for Microsoft Sustainability Manager including document analysis, calculation model generation, report generation, data querying, and fact finding.</description>
+      <guid isPermaLink="false">microsoftdocs-dynamics-365-unified-operations-public-pr-5163</guid>
+      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5163.mp3" length="3104685" type="audio/mpeg"/>
+      <pubDate>Sun, 22 Feb 2026 16:28:00 +0000</pubDate>
+      <itunes:duration>193</itunes:duration>
+    </item>
     <item>
       <title>[MicrosoftDocs/dynamics-365-unified-operations-public] PR #5164: Feature/cross legal entity inventory lookup</title>
       <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5164</link>

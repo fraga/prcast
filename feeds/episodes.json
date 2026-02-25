@@ -1,5 +1,16 @@
 [
   {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5163",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "PR #5163: MSM Copilot experiences",
+    "description": "Pull Request by lavanyapg: MSM Copilot experiences. Documents five new Copilot features for Microsoft Sustainability Manager including document analysis, calculation model generation, report generation, data querying, and fact finding.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5163.mp3",
+    "duration_seconds": 193,
+    "pub_date": "2026-02-22T16:28:00+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5163",
+    "pr_number": 5163
+  },
+  {
     "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5164",
     "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
     "title": "PR #5164: Feature/cross legal entity inventory lookup",
