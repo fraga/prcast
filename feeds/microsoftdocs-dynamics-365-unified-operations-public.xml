@@ -8,15 +8,15 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>PRCast</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 07:10:27 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 25 Feb 2026 13:25:31 +0000</lastBuildDate>
     <itunes:author>PRCast</itunes:author>
     <itunes:category text="Technology"/>
+    <itunes:image href="https://fraga.github.io/prcast/cover-msdocs-d365.png"/>
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>PRCast</itunes:name>
       <itunes:email>noreply@example.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://fraga.github.io/prcast/cover-msdocs-d365.png"/>
     <item>
       <title>PR #5163: MSM Copilot experiences</title>
       <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5163</link>
@@ -34,6 +34,15 @@
       <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5164.mp3" length="2371245" type="audio/mpeg"/>
       <pubDate>Wed, 25 Feb 2026 07:09:16 +0000</pubDate>
       <itunes:duration>148</itunes:duration>
+    </item>
+    <item>
+      <title>PR #5165: change tracking related data added </title>
+      <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5165</link>
+      <description>Pull Request by rishi1212: change tracking related data added . 1 files changed, +48 -43 lines. Branch: user/riverma/changetrackingdata -&gt; main. State: closed.</description>
+      <guid isPermaLink="false">microsoftdocs-dynamics-365-unified-operations-public-pr-5165</guid>
+      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5165.mp3" length="1595181" type="audio/mpeg"/>
+      <pubDate>Wed, 25 Feb 2026 13:25:31 +0000</pubDate>
+      <itunes:duration>99</itunes:duration>
     </item>
   </channel>
 </rss>

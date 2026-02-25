@@ -1,0 +1,43 @@
+{
+  "episode": {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5165",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "PR #5165: change tracking related data added ",
+    "description": "Pull Request by rishi1212: change tracking related data added . 1 files changed, +48 -43 lines. Branch: user/riverma/changetrackingdata -> main. State: closed.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5165.mp3",
+    "duration_seconds": 99,
+    "pub_date": "2026-02-25T13:25:31.981270+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5165",
+    "pr_number": 5165
+  },
+  "script": [
+    {
+      "speaker": "Alex",
+      "text": "Hey everyone, welcome back to PRCast. Today we\u2019re covering MicrosoftDocs/dynamics-365-unified-operations-public pull request number 5165, titled change tracking related data added ."
+    },
+    {
+      "speaker": "Alex",
+      "text": "This one is a focused documentation update around change tracking related data. The PR is fairly compact, but useful for teams that rely on precise documentation when validating data synchronization and downstream integration behavior."
+    },
+    {
+      "speaker": "Alex",
+      "text": "From the change profile, we\u2019re looking at 1 files changed, with plus 48 and minus 43 lines. So this is more of a targeted improvement than a broad restructuring."
+    },
+    {
+      "speaker": "Alex",
+      "text": "There isn\u2019t a big review discussion thread here, which usually indicates this was straightforward and non-controversial. Also important context: this PR is currently in the closed state, so treat it as documentation history rather than newly merged guidance."
+    },
+    {
+      "speaker": "Alex",
+      "text": "Even when a PR is closed, there\u2019s still value in understanding what was proposed. For engineering and support teams, these proposed changes often surface pain points around discoverability and explainability, especially in operational areas like change tracking."
+    },
+    {
+      "speaker": "Alex",
+      "text": "My read: this is a practical maintenance PR. Not flashy, but it fits the ongoing pattern of tightening D365 docs so teams can troubleshoot and implement faster."
+    },
+    {
+      "speaker": "Alex",
+      "text": "That\u2019s it for this episode. Thanks for listening to PRCast, and I\u2019ll catch you in the next pull request breakdown."
+    }
+  ]
+}

@@ -20,5 +20,16 @@
     "pub_date": "2026-02-25T07:09:16.454818+00:00",
     "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5164",
     "pr_number": 5164
+  },
+  {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5165",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "PR #5165: change tracking related data added ",
+    "description": "Pull Request by rishi1212: change tracking related data added . 1 files changed, +48 -43 lines. Branch: user/riverma/changetrackingdata -> main. State: closed.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5165.mp3",
+    "duration_seconds": 99,
+    "pub_date": "2026-02-25T13:25:31.981270+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5165",
+    "pr_number": 5165
   }
 ]
