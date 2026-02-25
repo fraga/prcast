@@ -16,7 +16,7 @@
       <itunes:name>PRCast</itunes:name>
       <itunes:email>noreply@example.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="https://fraga.github.io/prcast/prcast-cover.png"/>
+    <itunes:image href="https://fraga.github.io/prcast/cover-msdocs-d365.png"/>
     <item>
       <title>PR #5163: MSM Copilot experiences</title>
       <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5163</link>
