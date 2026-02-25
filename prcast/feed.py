@@ -1,5 +1,6 @@
 """RSS feed generator for PRCast."""
 
+import json
 import os
 from datetime import datetime, timezone
 from pathlib import Path
@@ -12,6 +13,21 @@ from prcast.config import settings
 def _repo_slug(repo: str) -> str:
     """Convert owner/repo to a safe filename slug."""
     return repo.replace("/", "-").lower()
+
+
+def _repo_image_url(repo: str) -> str:
+    """Resolve per-repo podcast image from JSON map; fallback to PODCAST_IMAGE."""
+    raw = os.getenv("PODCAST_IMAGE_MAP", "").strip()
+    if raw:
+        try:
+            image_map = json.loads(raw)
+            if isinstance(image_map, dict):
+                mapped = image_map.get(repo)
+                if isinstance(mapped, str) and mapped.strip():
+                    return mapped.strip()
+        except json.JSONDecodeError:
+            pass
+    return settings.PODCAST_IMAGE
 
 
 def generate_feed(
@@ -52,8 +68,9 @@ def generate_feed(
         name=settings.PODCAST_AUTHOR,
         email=settings.PODCAST_EMAIL or "noreply@example.com",
     )
-    if settings.PODCAST_IMAGE:
-        fg.podcast.itunes_image(settings.PODCAST_IMAGE)
+    repo_image = _repo_image_url(repo)
+    if repo_image:
+        fg.podcast.itunes_image(repo_image)
 
     # Episodes (newest first)
     for ep in sorted(episodes, key=lambda e: e["pub_date"], reverse=True):
