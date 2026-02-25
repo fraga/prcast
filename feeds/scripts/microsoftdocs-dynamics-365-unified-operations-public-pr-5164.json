@@ -1,0 +1,51 @@
+{
+  "episode": {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5164",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "PR #5164: Feature/cross legal entity inventory lookup",
+    "description": "Pull Request by yufei-huang: Feature/cross legal entity inventory lookup. 2 files changed, +155 -0 lines. Branch: feature/cross-legal-entity-inventory-lookup -> main.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5164.mp3",
+    "duration_seconds": 148,
+    "pub_date": "2026-02-25T07:09:16.454818+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5164",
+    "pr_number": 5164
+  },
+  "script": [
+    {
+      "speaker": "Alex",
+      "text": "Hey everyone, welcome back to PRCast. Today we\u2019re looking at MicrosoftDocs/dynamics-365-unified-operations-public pull request number 5164, titled Feature/cross legal entity inventory lookup."
+    },
+    {
+      "speaker": "Alex",
+      "text": "This one is a documentation-focused PR, but it\u2019s actually pretty impactful for Commerce teams running multi-company operations. The author adds a new article for enabling cross-company inventory lookup in Dynamics 365 Commerce POS, plus a TOC update so the guide is discoverable in the inventory availability section."
+    },
+    {
+      "speaker": "Alex",
+      "text": "At a high level, the feature allows store associates to see inventory across legal entities. In real-world terms, that means if inventory is owned in one company but sold by another, the associate can still check availability across the network and guide the customer better."
+    },
+    {
+      "speaker": "Alex",
+      "text": "The new doc is thorough. It covers prerequisites like Commerce version 10.0.47 or later, Inventory Visibility Service integration, and API version 2.0. It also explains feature enablement in Feature Management, fulfillment group setup with cross-entity warehouses, and required distribution schedules like 1070 and 1110."
+    },
+    {
+      "speaker": "Alex",
+      "text": "What I like here is the practical framing. The write-up explains current limitations clearly\u2014visibility is available, but cross-company order fulfillment selection in POS is still not there yet. That kind of honest boundary setting prevents bad assumptions during rollout."
+    },
+    {
+      "speaker": "Alex",
+      "text": "Change size is moderate for docs: 2 files changed, plus 155 and minus 0. The substance is concentrated in one new how-to article, which is exactly what you want for maintainability."
+    },
+    {
+      "speaker": "Alex",
+      "text": "No major review discussion happened on this PR, which usually means scope was clear and execution matched expectations."
+    },
+    {
+      "speaker": "Alex",
+      "text": "Bottom line: this is a solid documentation addition for a feature that can materially improve in-store service in multi-entity retail orgs. If your team has been handling cross-company inventory through workaround knowledge, this guide gives you an official, structured implementation path."
+    },
+    {
+      "speaker": "Alex",
+      "text": "That\u2019s it for this episode. Thanks for listening to PRCast, and I\u2019ll catch you in the next pull request breakdown."
+    }
+  ]
+}
