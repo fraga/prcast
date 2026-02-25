@@ -12,6 +12,7 @@
     <itunes:author>PRCast</itunes:author>
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://fraga.github.io/prcast/prcast-cover.png"/>
     <item>
       <title>[MicrosoftDocs/dynamics-365-unified-operations-public] PR #5163: MSM Copilot experiences</title>
       <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5163</link>
