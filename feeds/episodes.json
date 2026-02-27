@@ -38,8 +38,8 @@
     "title": "PR #5166: Updated document to be more friendly and give examples",
     "description": "Pull Request by seth-arvila: Updated document to be more friendly and give examples. 1 file changed, +67 -10 lines. Updated chart-accounts-delimiter-unique.md with clearer explanations and usage examples.",
     "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5166.mp3",
-    "duration_seconds": 35,
-    "pub_date": "2026-02-27T01:25:15.083910+00:00",
+    "duration_seconds": 36,
+    "pub_date": "2026-02-27T01:54:41.175645+00:00",
     "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5166",
     "pr_number": 5166
   }
