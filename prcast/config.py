@@ -28,7 +28,7 @@ class Settings:
 
     # TTS
     TTS_PROVIDER: str = os.getenv("TTS_PROVIDER", "edge")  # "edge" or "elevenlabs"
-    HOST_A_VOICE: str = os.getenv("HOST_A_VOICE", "en-US-AndrewMultilingualNeural")
+    HOST_A_VOICE: str = os.getenv("HOST_A_VOICE", "en-US-AndrewNeural")
     HOST_A_NAME: str = os.getenv("HOST_A_NAME", "Alex")
 
     # Kept for future two-host support
