@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
   <channel>
     <title>PRCast - MicrosoftDocs/dynamics-365-unified-operations-public</title>
     <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public</link>
     <description>AI-generated podcast covering Pull Requests for MicrosoftDocs/dynamics-365-unified-operations-public</description>
-    <atom:link href="https://fraga.github.io/prcast/feeds/microsoftdocs-dynamics-365-unified-operations-public.xml" rel="self"/>
+    <atom:link href="https://fraga.github.io/prcast/feeds/microsoftdocs-dynamics-365-unified-operations-public.xml" rel="self" />
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>PRCast</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Feb 2026 13:25:31 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 27 Feb 2026 01:25:15 +0000</lastBuildDate>
     <itunes:author>PRCast</itunes:author>
-    <itunes:category text="Technology"/>
-    <itunes:image href="https://fraga.github.io/prcast/cover-msdocs-d365.png"/>
+    <itunes:category text="Technology" />
+    <itunes:image href="https://fraga.github.io/prcast/cover-msdocs-d365.png" />
     <itunes:explicit>no</itunes:explicit>
     <itunes:owner>
       <itunes:name>PRCast</itunes:name>
@@ -22,7 +22,7 @@
       <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5163</link>
       <description>Pull Request by lavanyapg: MSM Copilot experiences. Documents five new Copilot features for Microsoft Sustainability Manager including document analysis, calculation model generation, report generation, data querying, and fact finding.</description>
       <guid isPermaLink="false">microsoftdocs-dynamics-365-unified-operations-public-pr-5163</guid>
-      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5163.mp3" length="3104685" type="audio/mpeg"/>
+      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5163.mp3" length="3104685" type="audio/mpeg" />
       <pubDate>Sun, 22 Feb 2026 16:28:00 +0000</pubDate>
       <itunes:duration>193</itunes:duration>
     </item>
@@ -31,7 +31,7 @@
       <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5164</link>
       <description>Pull Request by yufei-huang: Feature/cross legal entity inventory lookup. 2 files changed, +155 -0 lines. Branch: feature/cross-legal-entity-inventory-lookup -&gt; main.</description>
       <guid isPermaLink="false">microsoftdocs-dynamics-365-unified-operations-public-pr-5164</guid>
-      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5164.mp3" length="2371245" type="audio/mpeg"/>
+      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5164.mp3" length="2371245" type="audio/mpeg" />
       <pubDate>Wed, 25 Feb 2026 07:09:16 +0000</pubDate>
       <itunes:duration>148</itunes:duration>
     </item>
@@ -40,9 +40,9 @@
       <link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5165</link>
       <description>Pull Request by rishi1212: change tracking related data added . 1 files changed, +48 -43 lines. Branch: user/riverma/changetrackingdata -&gt; main. State: closed.</description>
       <guid isPermaLink="false">microsoftdocs-dynamics-365-unified-operations-public-pr-5165</guid>
-      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5165.mp3" length="1595181" type="audio/mpeg"/>
+      <enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5165.mp3" length="1595181" type="audio/mpeg" />
       <pubDate>Wed, 25 Feb 2026 13:25:31 +0000</pubDate>
       <itunes:duration>99</itunes:duration>
     </item>
-  </channel>
+  <item><title>PR #5166: Updated document to be more friendly and give examples</title><link>https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5166</link><description>Pull Request by seth-arvila: Updated document to be more friendly and give examples. 1 file changed, +67 -10 lines. Updated chart-accounts-delimiter-unique.md with clearer explanations and usage examples.</description><guid isPermaLink="false">microsoftdocs-dynamics-365-unified-operations-public-pr-5166</guid><enclosure url="https://fraga.github.io/prcast/audio/microsoftdocs-dynamics-365-unified-operations-public/microsoftdocs-dynamics-365-unified-operations-public-pr-5166.mp3" length="208656" type="audio/mpeg" /><pubDate>Fri, 27 Feb 2026 01:25:15 +0000</pubDate><itunes:duration>35</itunes:duration></item></channel>
 </rss>
