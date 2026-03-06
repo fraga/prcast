@@ -42,5 +42,38 @@
     "pub_date": "2026-02-27T03:24:04.301488+00:00",
     "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5166",
     "pr_number": 5166
+  },
+  {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5167",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "PR #5167: Update bank revaluation documentation with enhancements",
+    "description": "Pull Request by music727 (Milda Beinaryte): Added details about enhancements to bank foreign currency revaluation, including setup requirements and troubleshooting steps. 1 file changed, +21 -2 lines.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5167.mp3",
+    "duration_seconds": 49,
+    "pub_date": "2026-03-04T14:25:16.954355+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5167",
+    "pr_number": 5167
+  },
+  {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5167-mixed",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "PR #5167: Update bank revaluation documentation with enhancements (With Music!)",
+    "description": "Pull Request by music727 (Milda Beinaryte): Added details about enhancements to bank foreign currency revaluation, including setup requirements and troubleshooting steps. 1 file changed, +21 -2 lines.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5167-mixed.mp3",
+    "duration_seconds": 80,
+    "pub_date": "2026-03-04T23:52:46.473226+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5167",
+    "pr_number": 5167
+  },
+  {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-pr-5167-solo",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "PR #5167: Update bank revaluation documentation with enhancements (Solo Edition)",
+    "description": "Pull Request by music727 (Milda Beinaryte): Added details about enhancements to bank foreign currency revaluation, including setup requirements and troubleshooting steps. 1 file changed, +21 -2 lines.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-pr-5167-solo.mp3",
+    "duration_seconds": 40,
+    "pub_date": "2026-03-06T13:09:10.008798+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5167",
+    "pr_number": 5167
   }
 ]
