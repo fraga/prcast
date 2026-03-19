@@ -75,5 +75,15 @@
     "pub_date": "2026-03-06T13:09:10.008798+00:00",
     "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public/pull/5167",
     "pr_number": 5167
+  },
+  {
+    "id": "microsoftdocs-dynamics-365-unified-operations-public-release-10-0-47-ga",
+    "repo": "MicrosoftDocs/dynamics-365-unified-operations-public",
+    "title": "Release 10.0.47 GA: cross-app highlights (Finance, SCM, Commerce, HR)",
+    "description": "Special episode summarizing Dynamics 365 Unified Operations 10.0.47 GA timeline and highlights across Finance, Supply Chain Management, Commerce, and Human Resources, including pay-by-link public preview and warehouse/mobile performance updates.",
+    "audio_file": "microsoftdocs-dynamics-365-unified-operations-public-release-10-0-47-ga.mp3",
+    "duration_seconds": 97,
+    "pub_date": "2026-03-19T04:23:11.557995+00:00",
+    "pr_url": "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public"
   }
 ]
